@@ -15,7 +15,8 @@
   $strSQL = "SELECT * FROM employee WHERE username = '".$_SESSION['username']."' ";
   $objQuery = mysql_query($strSQL);
   $objResult = mysql_fetch_array($objQuery);
-  // $total_price = $_SESSION['total'];
+
+  $total_price = $_SESSION['total']
 ?>
 <!DOCTYPE html>
 <html>
@@ -107,6 +108,7 @@
 <center>
 <form>
   <div class="table-responsive">
+
 <table>
         <thead>
  <tr>
@@ -115,14 +117,16 @@
  <th width="150"><pre>วันที่รับสินค้า</pre></th>
  <th width="80"><pre>ชื่อสวน</pre></th>
  <th width="100"><pre>ราคารวม</pre></th>
+
  <!-- <th width="200"><pre>พนักงาน</pre></th> -->
- 
+
 
 
  </tr></thead>
 <?php
  $sql = " select recive.recive_id, DATE_FORMAT(recive.recive_date,'%d/%m/%Y'),
-          garden_network.garden_network_name, ROUND(recive.total_price, 2), employee.employee_name, garden_network.garden_network_id
+
+          garden_network.garden_network_name,ROUND(recive.total_price, 2), employee.employee_name,garden_network.garden_network_id
 
           from recive , employee , garden_network
 
@@ -151,7 +155,7 @@
              $i1++;
            }
     echo "<td align='right'>$total</td>";
-    // echo "<td>$data[4]</td>";
+    echo "<td>$data[4]</td>";
             
  echo "</tr>";
  $i++;

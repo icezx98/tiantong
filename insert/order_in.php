@@ -24,7 +24,6 @@
  $status = "ใช้งาน";
  $radio = $_POST["optradio"];
 
-
 $test_name = "select orders_id from orders where company_id ='".$customer_id."' and orders_date='".$orders_date."'
  				and orders_due_date='".$orders_due_date."' or market_customer_id ='".$customer_id."'
 				and orders_date='".$orders_date."' and orders_due_date='".$orders_due_date."'";

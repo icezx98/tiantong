@@ -1,7 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="dd138546-0682-4644-ba75-f2624a705b2f" name="Default" comment="" />
+=======
+    <list default="true" id="dd138546-0682-4644-ba75-f2624a705b2f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/1445006957_business_contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/1445090954_bunch_flowers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/1445783984_shoping_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/BG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ChoiceGardens_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ChoiceGardens_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Customer_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Customer_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Main_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Main_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/PayMoney_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/PayMoney_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveMoney_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveMoney_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveOrder_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveOrder_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveProduct_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ReceiveProduct_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Report_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Report_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/SelectGrade_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/SelectGrade_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/SendProduct_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/SendProduct_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ShareOrder_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ShareOrder_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/Thiantong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/product_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/product_01.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/im/unit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-cookies.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkorder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/color_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/color_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/color_formin2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/color_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/color_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/color_in2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/color_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/color_index2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/color_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/company_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/company_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/company_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/company_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/company_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customer_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_orders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_orders_check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/detail_orders_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_orders_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_orders_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/detail_orders_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_orders_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/detail_orders_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_product_check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_product_color.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_product_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_product_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_product_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_product_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_product_size.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_product_unit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_recive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_recive_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/detail_recive_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_recive_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/detail_recive_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/detail_spread_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/detail_spread_order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/detail_spread_order_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_formupdate_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_formupdate_changepass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_formupdate_user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/employee_updatepass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/garden_network_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_detail_recive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/get_detail_recive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/get_orders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/getdate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/getgarden.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/i.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.backstretch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.collision.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.coords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.gridster.extras.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.gridster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.gridster.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.gridster.with-extras.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/l.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/localtion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market_customer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/market_customer_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/market_customer_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/market_customer_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/market_customer_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/market_customer_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/master_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order_formin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/order_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order_formupdate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/order_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/order_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order_location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/order_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/order_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/produce_company_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/produce_company_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/produce_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/produce_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/produce_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_color.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_company.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_company_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/product_company_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/product_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_garden.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_garden_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/product_garden_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_garden_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/product_garden_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/product_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_select_id.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_size.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_unit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/product_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recive.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/recive_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/recive_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/recive_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/recive_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resetpass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/simple-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/simple-hint.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete/size_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/size_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/size_formin2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/size_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/size_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/size_in2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/size_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/size_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spread_order.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/spread_order_formin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/sweetalert-dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sweetalert-dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/table2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tiantong.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure_formupdate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure_in.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure_index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_measure_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert/unit_price_select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/unit_select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/untitled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
     <ignored path="tiantong.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,11 +255,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="employee_formin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee_formin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.0" vertical-offset="945" max-vertical-offset="5295">
               <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+=======
+      <file leaf-file-name="employee_formin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/employee_formin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7843137" vertical-offset="0" max-vertical-offset="5295">
+              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
               <folding>
                 <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
                 <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
@@ -38,6 +276,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="order.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/order.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,6 +285,16 @@
               <folding>
                 <marker date="1450934870000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
                 <marker date="1450934870000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+=======
+      <file leaf-file-name="order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+              <folding>
+                <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+                <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
               </folding>
             </state>
           </provider>
@@ -54,8 +303,13 @@
       <file leaf-file-name="i.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
               <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+              <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
               <folding />
             </state>
           </provider>
@@ -76,6 +330,10 @@
       <list>
         <option value="$PROJECT_DIR$/employee_formin.php" />
         <option value="$PROJECT_DIR$/i.php" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/order.php" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
       </list>
     </option>
   </component>
@@ -157,6 +415,12 @@
       <BehatRunner />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -165,9 +429,12 @@
       <envs />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+=======
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -183,22 +450,54 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24248926" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -207,6 +506,16 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -224,12 +533,275 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+<<<<<<< HEAD
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+=======
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+=======
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/js/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.076045625" vertical-offset="0" max-vertical-offset="789">
+          <caret line="4" column="62264" selection-start-line="4" selection-start-column="62264" selection-end-line="4" selection-end-column="62264" />
+=======
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="5295">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
+          <folding />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-10.0" vertical-offset="945" max-vertical-offset="5295">
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="5295">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
+=======
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="180">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12026144" vertical-offset="1813" max-vertical-offset="2580">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+          <folding>
+            <marker date="1450934870000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1450934870000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+=======
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="5295">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="180">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/employee_formin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295">
@@ -288,32 +860,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee_formin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="945" max-vertical-offset="5295">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
-            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
-          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+          <caret line="2" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12026144" vertical-offset="1813" max-vertical-offset="2580">
-          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="2580">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding>
-            <marker date="1450934870000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
-            <marker date="1450934870000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+            <marker date="1455091868000" expanded="true" signature="413:480" placeholder="SELECT * FRO..employee..." />
+            <marker date="1455091868000" expanded="true" signature="4390:4931" placeholder="select order..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_formin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7843137" vertical-offset="0" max-vertical-offset="5295">
+          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+          <folding>
+            <marker date="1452692180000" expanded="true" signature="376:447" placeholder="SELECT * FRO..employee..." />
+            <marker date="1452692180000" expanded="true" signature="4119:4176" placeholder="select MAX(S..employee..." />
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
           </folding>
         </state>
       </provider>

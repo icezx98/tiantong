@@ -24,7 +24,11 @@
 
 ?>
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html ng-app='recive_select'>
+=======
+<html>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=desvice-width, initial-scale=1.0">
@@ -33,6 +37,7 @@
  <link rel="stylesheet" href="../css/table.css">
   <link rel="stylesheet" href="../css/css1.css">
  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+<<<<<<< HEAD
  <script type="text/javascript" src="../angular.min.js"></script>
  <script type="text/javascript" src="../js/ui-bootstrap-tpls-1.2.1.min.js"></script>
  <script type="text/javascript" src="../js/angular-animate.min.js"></script>
@@ -40,6 +45,11 @@
  <script type="text/javascript" src="../js/recive_formin_select.js"></script>
 </head>
 <body ng-controller='recive_selectcontroller'>
+=======
+
+</head>
+<body >
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -144,27 +154,57 @@
 
 
   <div class="clearfix hidden-xs">
+<<<<<<< HEAD
     <!-- <form method="post" action="recive_in.php"> -->
     <!-- <form method="post" action=""> -->
+=======
+    <form method="post" action="recive_in.php">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 <table >
   <tr >
   <td style="width:200px"><div class="col-md-9 col-md-push-5">รหัสการรับสินค้า</div><div class="col-md-2 col-md-push-2"><b>&nbsp;&nbsp;&nbsp;*</b></div></td>
   <td style="width:200px"> 
       <div class="input-group">
   <span class="input-group-addon" id="sizing-addon2"></span>
+<<<<<<< HEAD
   <input type="text" class="form-control" placeholder="กรอกข้อมูล"  aria-describedby="sizing-addon2" name="recive_id" id='recive_id' readonly="readonly" style="width:200px" value="<?php echo $recive_id;?>">
+=======
+  <input type="text" class="form-control" placeholder="กรอกข้อมูล"  aria-describedby="sizing-addon2" name="recive_id" readonly="readonly" style="width:200px" value="<?php echo $recive_id;?>">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 </div>
 </td>
 </tr>
 
 <tr>
+<<<<<<< HEAD
   <td style="width:200px"><div class="col-md-9 col-md-push-5">ชื่อสวน</div><div class="col-md-2 col-md-push-2"><b>&nbsp;&nbsp;&nbsp;*</b></div></td>
+=======
+  <td style="width:200px"><div class="col-md-9 col-md-push-5">วันที่รับสินค้า</div><div class="col-md-2 col-md-push-2"><b>&nbsp;&nbsp;&nbsp;*</b></div></td>
+  <td style="width:200px">
+<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2"></span>
+  <?php
+     $date = date("Y-m-d");
+
+    ?>
+  <input type="date" name="dateInput" ng-model="orderDate" ng-change="changOrderDate()" oninvalid="setCustomValidity('กรุณาเลือกวันที่')" oninput="setCustomValidity('')" required>
+</div>
+  </td>
+    </tr>
+
+<tr>
+  <td style="width:200px"><div class="col-md-9 col-md-push-5">ชื่อสวน</div><div class="col-md-2 col-md-push-2"><b>&nbsp;&nbsp;&nbsp;&nbsp;*</b></div></td>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 
   <td>
     <div class="row">
   <div class="col-xs-10 col-sm-3 col-md-5">
+<<<<<<< HEAD
     <!-- <select ng-model="recive" ng-change="kuy()" class="form-control" name="garden_id" style="width:227px" oninvalid="setCustomValidity('กรุณาเลือกข้อมูล')" oninput="setCustomValidity('')" required> -->
     <select ng-model="recive" ng-change="rec()" class="form-control" name="garden_id" style="width:227px" oninvalid="setCustomValidity('กรุณาเลือกข้อมูล')" oninput="setCustomValidity('')" required>
+=======
+    <select class="form-control" name="garden_id" style="width:227px" oninvalid="setCustomValidity('กรุณาเลือกข้อมูล')" oninput="setCustomValidity('')" required>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
   <?php
      $sql = "select detail_spread_order.garden_network_id, garden_network.garden_network_name
              from detail_spread_order, detail_spread_product, garden_network
@@ -224,8 +264,10 @@
   <td style="width:200px">
 <div class="input-group">
   <span class="input-group-addon" id="sizing-addon2"></span>
+
   <input type="text" class="form-control" placeholder="กรอกข้อมูล"  aria-describedby="sizing-addon2" name="employee"  readonly="readonly" style="width:230px"  value="<?php echo $objResult["employee_name"];?>">
   <input type="hidden"  name="employee_id" id='employee' value= "<?php echo  $employee_id;?>">
+
 </div> 
 
   </td>
@@ -236,16 +278,22 @@
   <td >
 <div class="row">
   <div class="col-xs-10 col-sm-4 col-md-6"></div>
+<<<<<<< HEAD
   <div class="col-xs-8 col-md-6"><input type="submit" value="เพิ่ม" style="width:80px" ng-click="insert()">&nbsp;<input type="reset" value="ยกเลิก" style="width:80px" ONCLICK="window.location.href='../recive.php'"></td></div>
 </div>
 <!-- <div class="row">
   <div class="col-xs-10 col-sm-4 col-md-6"></div>
   <div class="col-xs-8 col-md-6"><button ng-click="recive_formin_select.js"></button></div>
 </div> -->
+=======
+  <div class="col-xs-8 col-md-6"><input type="submit" value="เพิ่ม" style="width:80px">&nbsp;<input type="reset" value="ยกเลิก" style="width:80px" ONCLICK="window.location.href='../recive.php'"></td></div>
+</div>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 
     
   </tr>
   </table>
+<<<<<<< HEAD
 
   <table>
   <tr ng-repeat="ice in result track by $index"  >
@@ -255,6 +303,8 @@
       <td ng-click="cl(ice[1],$index)">{{ice[2]}}</td>
   </tr>
 </table>
+=======
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
   </form>
   </div>
 

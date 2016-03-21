@@ -25,7 +25,8 @@
    $employee_id = $objResult["employee_id"];
 ?>
 <!DOCTYPE html>
-<html>
+
+<html ng-app>
 <head>
   <link rel="stylesheet" type="text/css" href="css/dataTables.min.css">
 <link href="dist/simple-hint.css" rel="stylesheet">
@@ -34,9 +35,19 @@
 <link rel="stylesheet" href="css/css1.css">
 <link rel="stylesheet" href="css/table.css"> 
 <script src="js/bootstrap.min.js"></script>
+
 <!-- <script src="dist/sweetalert-dev.js"></script>
 <link rel="stylesheet" href="dist/sweetalert.css"> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+        <script language="JavaScript">
+        function toggle(source) {
+          checkboxes = document.getElementsByName('checkorder[]');
+          for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+          }
+        }
+        </script>
 </head>
 <body >
   <nav class="navbar navbar-inverse">
@@ -85,7 +96,11 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<<<<<<< HEAD
 
+=======
+ <form method="POST" action="detail_spread_order.php?id=1">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 
 <div class="row">
   <div class="col-md-2">
@@ -100,7 +115,11 @@
   <div class="col-md-3">
 
   <ul ALIGN = "RIGHT" class="blue">
+<<<<<<< HEAD
 <li ><a class="current" title="home" name="submit"><i class="glyphicon glyphicon-plus"></i>เพิ่มข้อมูล</a></li>
+=======
+  <br><br><input type="submit" name="submit" value="เพิ่ม" style="width:80px">
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 </ul>
   </div>
 </div>
@@ -108,11 +127,17 @@
 
 
 <center>
+<<<<<<< HEAD
   <form method="post" action="detail_spread_order.php?id=1" ng-controller="orderController">
+=======
+ 
+   
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
   <div class="table-responsive">
       <table id="example">
               <thead>
       <tr>
+<<<<<<< HEAD
         <th width="80"><pre>   </pre></th>
        <th width="100"><pre>รหัสการรับ<br>คำสั่งซื้อ</pre></th>
        <th width="350"><pre>    บริษัท    </pre></th>
@@ -123,6 +148,17 @@
         <th width="50"><pre>สถานะ</pre></th>
        
 
+=======
+        <th width="80"><input type="checkbox" ng-model='checkAll'/></th>
+        <th width="100"><pre>รหัสการรับ<br>คำสั่งซื้อ</pre></th>
+        <th width="350"><pre>    บริษัท    </pre></th>
+        <th width="350"><pre>   ลูกค้าไม้ตลาด   </pre></th>
+        <th width="130"><pre>วันที่สั่งซื้อ</pre></th>
+       
+         
+        <th width="50"><pre>สถานะ</pre></th>
+        <th width="340"><pre>กำหนดส่ง</pre></th>
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 
        </tr></thead>
       <?php
@@ -138,23 +174,40 @@
        $data = mysql_fetch_array($result);
 
        echo "<tr align=\"center\">";
+<<<<<<< HEAD
        echo "<td class='td'><label><input type='checkbox' name='checkorder[]' value='$data[0],$data[3],$data[4],$data[5],$data[6]'></label></td>";
+=======
+       echo "<td class='td'><label><input type='checkbox' name='checkorder[]' value='$data[0],$data[3],$data[4],$data[5],$data[6]' ng-model='checkbox[$i]' ng-checked='checkAll'></label></td>";
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
 
           echo "<td>$data[0]</td>";
           echo "<td align='left'>$data[1]</td>";
           echo "<td align='left'>&nbsp;$data[2]</td>";
+<<<<<<< HEAD
           echo "<td align='left'>$data[3]</td>";
           echo "<td>$data[4]</td>";
           echo "<td>$data[5]</td>";
           echo "<td class='td'>$data[6]</td>";
+=======
+          
+          echo "<td>$data[4]</td>";
+          
+          echo "<td >$data[6]</td>";
+          echo "<td class='td'><input type='date' name='date[]' min='03/20/2016'  ng-show='checkbox[$i]||checkAll' ></td>";
+        
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
        echo "</tr>";
        $i++;
 
        }
 
       ?>
+<<<<<<< HEAD
       <input type="submit" name="submit" value="เพิ่ม" style="width:80px">
 
+=======
+         
+>>>>>>> 06e63a269907ef34365f427e01ea7d17b406ac2a
       </table>
 </div>
       <?php

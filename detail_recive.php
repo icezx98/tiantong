@@ -25,6 +25,7 @@
   @$recive_id = $_GET['recive_id'];
   @$garden_id = $_GET['garden_id'];
   $_SESSION['garden_id'] = $garden_id;
+
   @$total = $_SESSION['total'];
 ?>
 <!DOCTYPE html>
@@ -118,6 +119,7 @@
 <center>
 <form>
   <div class="table-responsive">
+
 <table>
         <thead>
  <tr>

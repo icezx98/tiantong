@@ -1,5 +1,6 @@
 <?php
 // $name = $_GET['NAME'];
+$name = $_GET['NAME'];
   session_start();
   include("../connect.php");
   $db = "tiantongorchid";

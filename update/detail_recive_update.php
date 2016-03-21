@@ -21,9 +21,10 @@
  $product_id = $_POST["product_id"];
  $amount = $_POST["amount"];
  $price = $_POST["price"];
- // var_dump($amount);
- // var_dump($price);
 
+ var_dump($amount);
+ var_dump($price);
+ 
  $test_name = "select detail_recive_id from detail_recive where recive_id ='".
  				$recive_id."' and product_id ='".$product_id."' and amount ='".
  				$amount."' and price_unit = '".$price."'";

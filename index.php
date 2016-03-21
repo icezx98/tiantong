@@ -123,7 +123,11 @@ $ll = sha1($ll);
 <div class="gridster">
     <ul class="ice">
       <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"><a href="order.php"><img src="im/ReceiveOrder_01.png"width="140" height="140"></a></li>
+
       <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><a href="send.php"><img src="im/SendProduct_01.png"width="140" height="140"></li>
+
+      <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"><img src="im/SendProduct_01.png"width="140" height="140"></li>
+
       <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"><a href="customer_data.php"><img src="im/Customer_01.png"width="140" height="140"></a></li>
     
       <li data-row="1" data-col="2" data-sizex="2" data-sizey="1"><center><a href="spread_order.php"><img src="im/ShareOrder_01.png"width="140" height="120"></a></center></li>
@@ -133,12 +137,20 @@ $ll = sha1($ll);
       <li data-row="2" data-col="4" data-sizex="2" data-sizey="1"><center><img src="im/PayMoney_01.png"width="140" height="120"></center></li>
       <li data-row="3" data-col="4" data-sizex="1" data-sizey="1"><img src="im/ReceiveMoney_01.png"width="140" height="140"></li>
 
+
       <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"><a href="choose.php"><img src="im/SelectGrade_01.png"width="140" height="140"></li>
+
+      <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"><img src="im/SelectGrade_01.png"width="140" height="140"></li>
+
       <li data-row="3" data-col="5" data-sizex="1" data-sizey="1"><img src="im/Report_01.png"width="140" height="140"></li>
 
       
       <li data-row="1" data-col="6" data-sizex="1" data-sizey="2"><a href="master_data.php"><img src="im/Main_01.png"width="140" height="300"></a></li>
+
       <li data-row="2" data-col="6" data-sizex="1" data-sizey="1"><a href="choose_garden.php"><img src="im/ChoiceGardens_01.png"width="140" height="120"></li>
+
+      <li data-row="2" data-col="6" data-sizex="1" data-sizey="1"><img src="im/ChoiceGardens_01.png"width="140" height="120"></li>
+
     </ul>
   </div>
 

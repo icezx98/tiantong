@@ -33,6 +33,7 @@
   $customerId = $_GET['customerId'];
     if (isset($_POST['submit']))
            {
+
              
               $value = implode(' ', $_POST['checkorder']);
               $checkorder = $_POST['checkorder'];
@@ -42,6 +43,17 @@
                 
               }
     
+
+              $checkorder = $_POST['checkorder'];
+              $date = $_POST['date'];
+              $values = array();
+              $values1 = array();
+              for($n = 0 ; $n<sizeof($checkorder);$n++){
+                array_push($values,explode(',', $checkorder[$n]));
+                array_push($values1,explode(',', $date[$n]));
+              }
+              $cookie_name = "values";
+              
               for ($i=0; $i < sizeof($values) ; $i++) {
 
                  $test_id = "select MAX(SUBSTRING(spread_id,4)) as num FROM spread_order";
@@ -72,12 +84,14 @@
                 $null = "";
                 $spread_date = date('Y-m-d', strtotime($values[$i][2]));
                 $spread_due_date = join('-',array_reverse(explode('/',$values[$i][3])));
+                $spread_due_date = join('-',array_reverse(explode('/',$values1[$i][0])));
                 //var_dump($spread_date1);
               
                 $nutyed = "insert into `tiantongorchid`.`spread_order` 
                 (`spread_id`, `spread_date`, `spread_due_date`, `employee_id`, `orders_id`, `recive_id`) 
                 values('".$spread_id."','".$spread_date."','".$spread_due_date."','".$employee_id."','".$values[$i][0]."','".$null."')";
                 $spread_idss[$i] = $spread_id;
+                array_push($values[$i],$spread_id);
                 $result = mysql_query($nutyed);
 
                 if(!$result){
@@ -88,6 +102,13 @@
 ?>
 <!DOCTYPE html>
 <html>
+              }
+              $cookie_value =json_encode($values);
+              setcookie($cookie_name, $cookie_value, time() + (86400 * 30)); // 86400 = 1 day  
+            }   
+?>
+<!DOCTYPE html>
+<html ng-app="spreas">
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/dataTables.min.css">
@@ -96,13 +117,17 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/table.css"> 
 <link rel="stylesheet" href="css/css1.css">
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="angular-cookies.min.js"></script>
+<script type="text/javascript" src="js/detail_spread_order.js"></script>
 
 
 <!-- <script src="dist/sweetalert-dev.js"></script>
 <link rel="stylesheet" href="dist/sweetalert.css"> -->
  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
 </head>
-<body >
+<body ng-controller="spreascontroller">
+
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -149,7 +174,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
+<table >
 <div class="row">
   <div class="col-md-2">
     
@@ -159,8 +184,11 @@
  
   </div>
   <div class="col-md-3">
-  
- 
+
+  <br><br><br><input type="submit" name="submit" value="เพิ่ม" style="width:80px" ng-click="submit()">
+  <input type="submit" name="submit" value="ยกเลิก" style="width:80px" ng-click="submit()">
+
+
   </div>
 </div>
 <center><hr width="80%"></center>
@@ -175,6 +203,13 @@
         <thead>
  <tr>
   <th width="150"><pre>   </pre></th>
+<center>
+
+  <div class="table-responsive">
+
+        <thead>
+ <tr>
+  
  <th width="300"><pre>รหัสรายละเอียด<br>การรับคำสั่งซื้อ</pre></th>
  <th width="200"><pre>รหัสการรับ<br>คำสั่งซื้อ</pre></th>
  <th width="300"><pre>   ชื่อสินค้า   </pre></th>
@@ -184,11 +219,9 @@
   <th width="150"><pre>จำนวนที่<br>สั่งซื้อ</pre></th>
   <th width="150"><pre>   </pre></th>
   <th width="150"><pre>   </pre></th>
-  <th width="150"><pre>   </pre></th>
- 
-
 
  </tr></thead>
+
 <?php
 
            
@@ -271,6 +304,27 @@
  <input type="submit" name="submit" value="เพิ่ม" style="width:80px">
 
 </form>
+    <tr ng-repeat="row in data track by $index" align="center">
+        
+         
+          <td class='td'>{{row.detail_orders_id}}</td>
+          <td>{{row.orders_id}}</td>
+          <td>{{row.product_name}}</td>
+          <td>{{row.color_name}}</td>
+          <td>{{row.size_name}}</td>
+          <td>{{row.unit_measure_name}}</td>
+          <td>{{row.number_orders}}</td>
+          <td  ><input type='number' class='form-control' placeholder='จำนวน'  aria-describedby='sizing-addon2' style='width:100px' ng-model='qty[$index]' ng-change='checkQty(row.number_orders,$index)'>
+          <td class='td'>
+            <select class='form-control' name='garden_network[]' ng-model="gardenNetworkId[$index]" style='width:150px' oninvalid='setCustomValidity('กรุณากรอกข้อมูล')' oninput='setCustomValidity('')' required >
+            <option value="">กรุณากรอกข้อมูล</option>
+            <option ng-repeat="drop in row.dropdown" value="{{drop.garden_network_id}}">{{drop.garden_network_name}}</option>
+          </select>
+          </td>
+          
+        </tr>
+</table>
+</div>
 
 </center>
 </div>

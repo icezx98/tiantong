@@ -37,7 +37,8 @@
   <link rel="stylesheet" href="../css/css1.css">
  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
  <script type="text/javascript" src="../angular.min.js"></script>
- <script type="text/javascript" src="../js/unit_select.js"></script>
+  <script type="text/javascript" src="../js/unit_select.js"></script>
+
 
 </head>
 <body ng-controller='unit_selectcontroller'>

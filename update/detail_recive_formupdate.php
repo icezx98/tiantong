@@ -252,6 +252,7 @@
 <div class="input-group">
   <span class="input-group-addon" id="sizing-addon2"></span>
   <input type="text" ng-model="result" class="form-control" placeholder="กรอกข้อมูล"  aria-describedby="sizing-addon2" name="price" readonly="readonly" style="width:200px" >
+
 </div> 
 
   </td>

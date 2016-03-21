@@ -282,7 +282,6 @@ $sql = "select * from detail_orders where detail_orders_id = '".$_GET["id"]."'" 
 
   </td>
     </tr>
-    
   <tr>
   <td>
     <div class="input-group">

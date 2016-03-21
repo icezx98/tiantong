@@ -1,0 +1,44 @@
+<html ng-app='recive_select'>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=desvice-width, initial-scale=1.0">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<title></title>
+ <link rel="stylesheet" href="../css/table.css">
+  <link rel="stylesheet" href="../css/css1.css">
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+ <script type="text/javascript" src="../angular.min.js"></script>
+ <script type="text/javascript" src="../js/recive_formin_select.js"></script>
+</head>
+<body><br>
+<div class="row">
+	<!-- <div style="height:600px;width:800px;background-color:#fff"> -->
+	<div class='col-md-12'>
+		<table>
+		<tbody ng-repeat="datas in result">
+				<td><div align="center">สินค้า</div></td>
+				<td><div align="center">สี</div></td>
+				<td><div align="center">ขนาด</div></td>
+				<td><div align="center">ราคาต่อหน่วย</div></td>
+				<td><div align="center">จำนวนที่รับ</div></td>
+			<tr ng-repeat="data in datas">
+				<!-- <td ng-repeat="(key, value) in data" ng-if="key !== 'qty' && key !== 'total'">{{value}}</td> -->
+				<td  ng-if="key !== 'qty' && key !== 'total'">{{data.product_name}}</td>
+				<td  ng-if="key !== 'qty' && key !== 'total'">{{data.color_name}}</td>
+				<td  ng-if="key !== 'qty' && key !== 'total'">{{data.size_name}}</td>
+				<td  ng-if="key !== 'qty' && key !== 'total'" align="right">{{data.price_unit}}</td>
+				<td><input type="number" ng-model="result[0][$index].qty" ng-change="checkValid($index)"/></td>
+			</tr>
+		</tbody>			
+		</table><div class="row">
+		<div class='col-md-5'></div>
+			<div align="center" class='col-md-3'>
+				<button type="button" class="btn btn-default" ng-click='ok()' ng-disabled="disable">ตกลง</button>
+				<button type="button" class="btn btn-default" ng-click='cancle()'>ยกเลิก</button>
+				<br><br>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
